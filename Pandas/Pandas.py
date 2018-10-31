@@ -45,3 +45,5 @@ print(df.columns)
 
 header("4. The average, median and mode of the App ratings")
 # First of all we have to handle the duplicates
+df = df.drop_duplicates("App", keep="first")
+print(df.shape)
