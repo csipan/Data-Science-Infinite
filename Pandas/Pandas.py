@@ -43,7 +43,7 @@ print(df.columns)
 df.rename(columns = {"Content Rating": "Content_Rating", "Last Updated": "Last_Updated", "Current Ver": "Current_Ver", "Android Ver": "Android_Ver"}, inplace=True)
 print(df.columns)
 
-header("4. The average, median and mode of the App ratings")
+header("4. The average, median and mode of the App Ratings")
 # First of all we have to handle the duplicates
 df = df.drop_duplicates("App", keep="first")
 # print(df.shape)
@@ -51,3 +51,17 @@ print(df["Rating"].describe().apply(lambda x: '%.3f' % x))  # f - float number
 print(df["Rating"].mean())
 print(df.Rating.median())
 print(df["Rating"].mode())
+
+header("5. Estimated average/median/mode for Size")
+# First we have to convert the type of Size column from object to float
+print(df["Size"].dtypes)
+# print(df["Size"].str.replace("Varies with device", "NaN"))
+
+# Separating everything from Size column except the last character
+df["Size_Numeric_Part"] = [x[:-1] for x in df["Size"]]
+df["Size_Numeric_Part"] = df["Size_Numeric_Part"].str.replace("Varies with devic", "NaN")
+print(df["Size_Numeric_Part"].tail())
+
+# Separating the last character from Size column
+df["Size_Letter_Part"] = df["Size"].str.replace("k", 1024)
+df["Size_Letter_Part"] = df["Size"].str.replace("M", 1048576)
