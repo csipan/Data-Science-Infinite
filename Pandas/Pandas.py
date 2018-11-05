@@ -59,9 +59,26 @@ print(df["Size"].dtypes)
 
 # Separating everything from Size column except the last character
 df["Size_Numeric_Part"] = [x[:-1] for x in df["Size"]]
-df["Size_Numeric_Part"] = df["Size_Numeric_Part"].str.replace("Varies with devic", "NaN")
-print(df["Size_Numeric_Part"].tail())
+# converting to 0 the "Varies with devic"
+df["Size_Numeric_Part"] = df["Size_Numeric_Part"].replace("Varies with devic", 0)
+df["Size_Numeric_Part"] = df["Size_Numeric_Part"].astype(float)
+print(df["Size_Numeric_Part"].dtypes)
 
 # Separating the last character from Size column
-df["Size_Letter_Part"] = df["Size"].str.replace("k", 1024)
-df["Size_Letter_Part"] = df["Size"].str.replace("M", 1048576)
+df["Size_Last_Character"] = df["Size"].str[-1:]
+# print(df["Size_Last_Character"].head())
+
+# Convert "k" and "M" to relevant values
+df["Size_Letter_Replace"] = df["Size_Last_Character"].replace("k", 1024)
+df["Size_Letter_Replace"] = df["Size_Letter_Replace"].replace("M", 1048576)
+df["Size_Letter_Replace"] = df["Size_Letter_Replace"].replace("e", 0)
+df["Size_Letter_Replace"] = df["Size_Letter_Replace"].astype(float)
+
+# Finally adding up the separated parts to one number
+df["Size"] = df["Size_Numeric_Part"] * df["Size_Letter_Replace"]
+# Replacing the 0 which was "Varies with device" to "NaN" to ignore from the calculations
+df["Size"] = df["Size"].replace(0.0, np.nan)
+
+print(df["Size"].mean())
+print(df["Size"].median())
+print(df["Size"].mode())
