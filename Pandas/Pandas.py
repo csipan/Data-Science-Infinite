@@ -82,3 +82,20 @@ df["Size"] = df["Size"].replace(0.0, np.nan)
 print(df["Size"].mean())
 print(df["Size"].median())
 print(df["Size"].mode())
+
+header("6. Most popular Genres")
+print(df.groupby("Genres").size().head())
+
+header("7. Convert the Last Updated column to YYYYY-MM-DD format and insert it as an extra column next to "
+       "Last Updated, with the name Last Updated Readable")
+df["Last_Updated_Readable"] = pd.to_datetime(df["Last_Updated"]).dt.strftime("%Y/%m/%d")
+new_df = df[['App', 'Category', 'Rating', 'Reviews', 'Size', 'Installs', 'Type',
+       'Price', 'Content_Rating', 'Genres', 'Last_Updated', 'Last_Updated_Readable', 'Current_Ver',
+       'Android_Ver']]
+print(new_df.head())
+new_df.to_csv("googleplaystore last updated readable.csv")
+
+header("8. Create a new, separate CSV that has all rows of data in reverse.")
+reversed_df = new_df.iloc[::-1]
+print(reversed_df.head())
+reversed_df.to_csv("googleplaystore reversed.csv")
