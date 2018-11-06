@@ -32,8 +32,21 @@ for ul in soup.find_all("ul", class_="atlassian-footer"):
 
 # -------------------------------------------------------------------------------------------------------------------
 
-source_2 = requests.get("http://jira.greenfox.academy/secure/ViewProfile.jspa").text
+source_2 = requests.get("http://www.nemzetisport.hu/bajnokok_ligaja/"
+                        "bl-gond-a-repteren-kesve-erkezett-a-dortmund-madridba-2667603").text
 
 soup_2 = BeautifulSoup(source_2, "lxml")
 
-print(soup_2.prettify())
+article = soup_2.find("article")
+headline = article.h1.text
+news_summary = article.p.text
+news_text_1 = article.find("div", class_="cikkbody clearfix")
+
+print(headline)
+print(news_summary)
+
+for news in news_text_1.find_all("p"):
+    if news.text[0] != " ":
+        print(news.text)
+
+
