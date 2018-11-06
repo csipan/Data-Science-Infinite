@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib.request
+import requests
+import lxml
 
 source = urllib.request.urlopen("http://jira.greenfox.academy/secure/ViewProfile.jspa").read()
 
@@ -27,3 +29,11 @@ for ul in soup.find_all("ul", class_="atlassian-footer"):
     ul_text = ul.li
     print(ul_text.text)
     print("-----------------------------------------------------------")
+
+# -------------------------------------------------------------------------------------------------------------------
+
+source_2 = requests.get("http://jira.greenfox.academy/secure/ViewProfile.jspa").text
+
+soup_2 = BeautifulSoup(source_2, "lxml")
+
+print(soup_2.prettify())
