@@ -19,9 +19,11 @@ for month in months:
     print(month["name"], month["avgMinTemp"], month["avgDailyRainfall"])
 print("------------------------------------------------")
 
-# Getting the sunrise for a certain day
+# Getting the sunrise, max temperature in celsius and other info for a certain day
 daily_stats = data["data"]["weather"]
 for date in daily_stats:
-    day = "2018-11-10"
+    day = "2018-11-07"
     if date["date"] == day:
-        print(date["astronomy"][0]["sunrise"])
+        print("Sunrise: " + date["astronomy"][0]["sunrise"])
+        print("Maximum temperature: " + date["maxtempC"])
+        print("Weather icon link: " + date["hourly"][0]["weatherIconUrl"][0]["value"])
