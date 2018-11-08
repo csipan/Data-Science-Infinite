@@ -10,22 +10,27 @@ def header(msg):
 header("1. Reading the file")
 filename = "my_data.csv"
 df = pd.read_csv(filename)
-df["lead"].replace(["None", "[]"], ["NaN", "NaN"], inplace=True)
 
-for space in range(len(df["lead"])):
-    df["lead"][space] = str(df["lead"][space]).strip()
+header("2. Prettifying the data")
+df.replace(["None", "[]"], ["NaN", "NaN"], inplace=True)
+# Deleting the spaces from the fields
+df_obj = df.select_dtypes(["object"])
+df[df_obj.columns] = df_obj.apply(lambda x: x.str.strip())
+# print(df["lead"])
+
+# for column in column_names:
+#     df["column"] = df["column"].str.strip()
+# df["date"] = df["date"].str.strip()
+# df["lead"] = df["lead"].str.strip()
+# df["text"] = df["text"].str.strip()
 
 # print(df["lead"])
 df.to_csv("good_data.csv", index=False)
 
 filename_1 = "good_data.csv"
 df1 = pd.read_csv(filename_1)
-
-df1["lead"].fillna(value="NaN", inplace=True)
-
-# for unique_characters in range(len(df1["lead"])):
-#     df1["lead"][unique_characters] = str(df1["lead"][unique_characters]).strip("\\n")
-
+# Filling the empty fields with NaN
+df1.fillna(value="NaN", inplace=True)
 df1.to_csv("good_data.csv", index=False)
-print(df1["lead"][598])
+# print(df1["lead"][598])
 # print(df["lead"])
