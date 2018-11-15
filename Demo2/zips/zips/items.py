@@ -8,7 +8,7 @@
 import scrapy
 
 
-class ConifersItem(scrapy.Item):
-    common_name = scrapy.Field()
-    latin_name = scrapy.Field()
-    height = scrapy.Field()
+class ZipsItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    pass

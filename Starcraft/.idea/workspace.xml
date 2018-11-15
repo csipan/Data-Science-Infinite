@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb47374c-7d6e-4959-b368-b59dd75bd6f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pandas/Scrapy test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Starcraft.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/.idea/conifers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conifers/conifers/spiders/conifers_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/kapucnis/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/kapucnis/.idea/dictionaries/Csipan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/kapucnis/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/kapucnis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/.idea/zips.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/zips/zips/spiders/zips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pandas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pandas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pandas/Scrapy test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pandas/Scrapy test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conifers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conifers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conifers/conifers/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../conifers/conifers/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conifers/conifers/spiders/conifers_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../conifers/conifers/spiders/conifers_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,97 +30,66 @@
     <session id="301273863">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="cfg" value="1" />
           <entry key="json" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="215" />
+          <entry key="py" value="253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="215" />
+          <entry key="Python" value="253" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="468">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
-                <element signature="e#1#42#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starcraft/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starcraft/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Starcraft/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starcraft/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starcraft/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starcraft/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/req.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -145,8 +117,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py" />
         <option value="$PROJECT_DIR$/req.py" />
+        <option value="$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py" />
       </list>
     </option>
   </component>
@@ -190,7 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conifers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunDashboard">
@@ -222,7 +194,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1743941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,7 +205,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -245,56 +217,56 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py">
+    <entry file="file://$PROJECT_DIR$/Starcraft/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Starcraft/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Starcraft/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starcraft/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starcraft/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
+        <state relative-caret-position="-265">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Starcraft/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starcraft/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starcraft/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starcraft/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/req.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starcraft/spiders/starcraft_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

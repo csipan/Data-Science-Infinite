@@ -1,15 +1,27 @@
-import scrapy
-from scrapy import spider
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
+from lxml import html
+from conifers.items import ConifersItem
 
 
-class ConiferSpider(spider.scrapy):
+class ConiferSpider(CrawlSpider):
     name = "conifers"
-    allowed_domain = ["greatplantpicks.org"]
     start_urls = ["https://www.greatplantpicks.org/plantlists/by_plant_type/conifer"]
+    rules = [
+      Rule(
+        LinkExtractor(
+          allow_domains=["greatplantpicks.org"],
+          allow=[".*"],
+        ),
+        callback="parse",
+        follow=True
+      )
+    ]
 
     def parse(self, response):
-        filename = response.url.split("/")[-2] + ".html"
-        # filename = 'conifer-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        # self.log('Saved file %s' % filename)
+        doc = html.fromstring(response.text)
+        item = ConifersItem()
+        item["common_name"] = doc.xpath("//tbody/tr/td[contains(@class, 'common_name')]/p").text()
+        item["latin_name"] = doc.xpath("//tobdy/tr/td[contains(@class, 'plantname')]/a/"
+                                       "span[contains(@class, 'genus', 'species')].text()")
+        yield item
