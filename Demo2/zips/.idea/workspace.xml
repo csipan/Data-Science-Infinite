@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d8fa81-4133-4daa-8c1a-c89700b2862c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/kapucinus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kapucnis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kapucnis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zips/spiders/horizontsorok.py" beforeDir="false" afterPath="$PROJECT_DIR$/zips/spiders/horizontsorok.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zips/spiders/kapucinus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zips/spiders/xlsx.py" beforeDir="false" afterPath="$PROJECT_DIR$/zips/spiders/xlsx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pandas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pandas/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zips/spiders/zips.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -62,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zips/spiders/horizontsorok.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="98" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="98" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <marker date="1542365201393" expanded="true" signature="58:63" ph="..." />
               </folding>
@@ -71,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zips/spiders/xlsx.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -153,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pandas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kapucnis" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,6 +258,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,13 +287,6 @@
     <entry file="file://$PROJECT_DIR$/zips/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zips/spiders/zips.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zips/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -311,16 +304,6 @@
     <entry file="file://$PROJECT_DIR$/kapucinus.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zips/spiders/horizontsorok.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="98" />
-          <folding>
-            <marker date="1542365201393" expanded="true" signature="58:63" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zips/spiders/xlsx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -328,6 +311,23 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zips/spiders/horizontsorok.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1542365201393" expanded="true" signature="58:63" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zips/spiders/zips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
