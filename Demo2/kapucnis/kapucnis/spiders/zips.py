@@ -24,6 +24,4 @@ class ZipsCrawler(scrapy.Spider):
             item["ebc"] = ebc[i]
             item["description"] = description[i]
             item["group_type"] = group_type[i]
-            yield {
-                item
-            }
+            yield item

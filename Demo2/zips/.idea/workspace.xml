@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d8fa81-4133-4daa-8c1a-c89700b2862c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kapucnis/fetch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/zips.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kapucnis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kapucnis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kapucnis/kapucnis/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kapucnis/kapucnis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/kapucinus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/kapucinus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kapucnis/kapucnis/spiders/test.py" beforeDir="false" />
@@ -259,6 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
