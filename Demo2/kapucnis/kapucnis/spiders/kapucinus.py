@@ -3,7 +3,7 @@ import pymongo
 
 
 MONGO_URI = 'mongodb://ec2-35-158-191-40.eu-central-1.compute.amazonaws.com:27017/'
-MONGO_DATABASE = 'beer'
+MONGO_DATABASE = 'newbeer'
 
 client = pymongo.MongoClient(MONGO_URI)
 
@@ -26,6 +26,7 @@ all_beers = []
 
 for i in range(len(beer_names)):
     item = {}
+    item["brewery"] = "kapucinus-sor.hu"
     item["beer_name"] = beer_names[i].text
     item["alcohol_vol"] = alcohols_ballings[i * 2].text
     # item["balling"] = alcohols_ballings[i * 2 + 1].text

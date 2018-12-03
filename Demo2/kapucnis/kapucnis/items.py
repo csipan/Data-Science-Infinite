@@ -9,10 +9,11 @@ import scrapy
 
 
 class KapucinusItem(scrapy.Item):
-    url = scrapy.Field()
-    name = scrapy.Field()
-    alcohol = scrapy.Field()
-    balling = scrapy.Field()
-    properties = scrapy.Field()
-    components = scrapy.Field()
+    brewery = scrapy.Field()
+    beer_name = scrapy.Field()
+    beer_type = scrapy.Field()
+    alcohol_vol = scrapy.Field()
+    bitterness = scrapy.Field()
+    color = scrapy.Field()
+    ingredients = scrapy.Field()
     description = scrapy.Field()

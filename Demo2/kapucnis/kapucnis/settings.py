@@ -15,7 +15,7 @@ SPIDER_MODULES = ['kapucnis.spiders']
 NEWSPIDER_MODULE = 'kapucnis.spiders'
 
 MONGO_URI = 'mongodb://ec2-35-158-191-40.eu-central-1.compute.amazonaws.com:27017/'
-MONGO_DATABASE = 'beer'
+MONGO_DATABASE = 'newbeer'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'kapucnis (+http://www.yourdomain.com)'

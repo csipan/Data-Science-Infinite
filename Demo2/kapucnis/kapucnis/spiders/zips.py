@@ -17,11 +17,12 @@ class ZipsCrawler(scrapy.Spider):
 
         for i in range(len(beer_names)):
             item = {}
+            item["brewery"] = "zips.hu"
             item["beer_name"] = beer_names[i]
             item["beer_type"] = beer_types[i]
             item["alcohol_vol"] = float(alcohol_vol[i].replace("%", ""))
             item["bitterness"] = int(bitterness[i])
-            item["ebc"] = ebc[i]
+            item["color"] = ebc[i]
             item["description"] = description[i]
-            item["group_type"] = group_type[i]
+            # item["group_type"] = group_type[i]
             yield item
